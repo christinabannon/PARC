@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8" />
+ 
+ <link rel=stylesheet href="../CSS/style.css"/>
+
+ <title>Parking @ Rowan</title>
+
+ <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+<html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
+        -->
+
+</head>
+<body>
+
+<h1>PARC</h1>
+
+        <form action="/~bannon82/PARC/php.php" method="post">
+                What time did you park today?
+                <br>
+                <input type="time" name="time" min="1" max="100">
+                <br>
+                <br>
+                How many minutes did it take you to find a parking spot?
+                <br>
+                <input type="number" name="quantity" min="1" max="100">
+                <br>
+                <br>
+                What lot did you park in?
+                <br>
+                <input type="radio" id="lot_o" name="parkinglot" value="lot_o">
+                <label for="lot_o">Lot O</label>
+                <br>
+                <input type="radio" id="lot_b1" name="parkinglot" value="lot_b1">
+                <label for="lot_b1">Lot B-1</label><br>
+                <br>
+
+                <input type="submit" value="Submit">
+        </form>
+
+</body>
+</html>
