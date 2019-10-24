@@ -1,48 +1,60 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
- <meta charset="utf-8" />
- 
- <link rel=stylesheet href="../CSS/style.css"/>
-
- <title>Parking @ Rowan</title>
-
- <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-<html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<body class="w3-light-grey">
-        -->
-
+	        <title> PARC </title>
 </head>
-<body>
-
-<h1>PARC</h1>
-
-        <form action="/~bannon82/PARC/php.php" method="post">
-                What time did you park today?
-                <br>
-                <input type="time" name="time" min="1" max="100">
-                <br>
-                <br>
-                How many minutes did it take you to find a parking spot?
-                <br>
-                <input type="number" name="quantity" min="1" max="100">
-                <br>
-                <br>
-                What lot did you park in?
-                <br>
-                <input type="radio" id="lot_o" name="parkinglot" value="lot_o">
-                <label for="lot_o">Lot O</label>
-                <br>
-                <input type="radio" id="lot_b1" name="parkinglot" value="lot_b1">
-                <label for="lot_b1">Lot B-1</label><br>
-                <br>
-
-                <input type="submit" value="Submit">
-        </form>
-
-</body>
+  <div style="background-image:url(//www.html.am/images/backgrounds/background-image-2.gif)">
+  <meta charset = "UTF-8">
+  <meta name="veiwport" content="width=device-width, initial-scale=1">
+  <! <body style="background-color:powderblue;">
+  <body>
+    <fieldset>
+      <legend>Survey</Legend><br>
+      <!-- method="get" shows values of variable in URL when subit button is pressed -->
+      <!-- change "get" to "post" in order to delete them from URL -->
+      <form action="/~bannon82/PARC/php.php"  method="post" target="_self">
+	What time did you park today?<br>
+	<input type="time" name="time"> <br>
+	<br>
+	How long did it take you to park?<br>
+	<input type="number" name="duration" min="1"  max="120"> minutes (1-120)<br>
+	<br>
+	What lot did you park in today?<br>
+	<div>
+	  <input type="radio" id="lot_o" name="parkinglot" value="lot_o">
+	  <label for="lot_o">Lot O</label>
+	  <br>
+	  <input type="radio" id="lot_b1" name="parkinglot" value="lot_b1">
+	  <label for="lot_b1">Lot B-1</label><br>
+	  <br>
+	</div>
+	<div>
+	  Approximatley how filled was that lot?<br>
+	  <input type="range" id="lot_capacity" name="lot_capacity" min="1" max="5"><br>
+	  <br>
+	</div>
+	<div>
+	  What lots did you drive through today?<br>
+	  <input type="checkbox" id="lotthrough_o" name="lotthrough_o">
+	  <label for="lotthrough_o">Lot 0</label><br>
+	  <br>
+	  <input type="checkbox" id="lotthrough_b1" name="lottthrough_b1">
+	  <label for="lotthrough_b1">Lot B-1</label><br>
+	  <br>
+	</div>
+	<div>
+	  Do you plan on leaving and returning to campus today?<br>
+	  <input type="radio" id="is_returning" name="returning" value="is_returning">
+	  <label for="is_returning">Yes</label>
+	  <input type="radio" id="not_returning" name="returning" value="not_returning">
+	  <label for="not_returning">No</label><br>
+	</div>
+	<br>
+	<input type="submit" value="submit">
+      </form>
+    </fieldset>
+  </body>
+  </div
 </html>
