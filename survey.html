@@ -9,147 +9,147 @@
     <! <body style="background-color:powderblue;">
     <body>
       <fieldset>
-        <legend>Survey</Legend><br>
-        <!-- method="get" shows values of variable in URL when subit button is pressed -->
-        <!-- change "get" to "post" in order to delete them from URL -->
-        <form action="/~allowa14/parc/php.php"  method="post" target="_self">
-          What time did you park today?
-          <div>
-            <br>
-            <input type="time" name="time">
-            <br>
-            <br>
-          </div>
-          How long did it take you to park?
-          <div>
-            <br>
-            <input type="number" name="duration" min="1"  max="120"> minutes (1-120)
-            <br>
-            <br>
-          </div>
-          Which lot did you park in today?
-          <div>
-            <br>
-            <input type="radio" id="lot_o" name="parkinglot" value="lot_o">
-            <label for="lot_o">Lot O</label>
-            <br>
-            <input type="radio" id="lot_b1" name="parkinglot" value="lot_b1">
-            <label for="lot_b1">Lot B-1</label>
-            <br>
-            <input type="radio" id="lot_a" name="parkinglot" value="lot_a">
-            <label for="lot_a">Lot A</label>
-            <br>
-            <input type="radio" id="lot_c" name="parkinglot" value="lot_c">
-            <label for="lot_c">Lot C</label>
-            <br>
-            <input type="radio" id="lot_d" name="parkinglot" value="lot_d">
-            <label for="lot_d">Lot D</label>
-            <br>
-            <input type="radio" id="lot_d1" name="parkinglot" value="lot_d1">
-            <label for="lot_d1">Lot D-1</label>
-            <br>
-            <input type="radio" id="lot_ellis" name="parkinglot" value="lot_ellis">
-            <label for="lot_ellis">Lot Ellis St.</label>
-            <br>
-            <input type="radio" id="lot_r" name="parkinglot" value="lot_r">
-            <label for="lot_r">Lot R</label>
-            <br>
-            <input type="radio" id="lot_y" name="parkinglot" value="lot_y">
-            <label for="lot_y">Lot Y</label>
-            <br>
-            <br>
-          </div>
-          Approximatley how filled was that lot?
-          <div>
-            <br>
-            <input type="range" id="lot_capacity" name="lot_capacity" min="1" max="5">
-            <br>
-          </div>
-          Which lots did you drive through today?
-          <div>
-            <br>
-            <input type="checkbox" id="lotthrough_o" name="lotthrough_o">
-            <label for="lotthrough_o">Lot 0</label>
-            <br>
-            <input type="checkbox" id="lotthrough_b1" name="lottthrough_b1">
-            <label for="lotthrough_b1">Lot B-1</label>
-            <br>
-            <input type="checkbox" id="lotthrough_a" name="lottthrough_a">
-            <label for="lotthrough_a">Lot A</label>
-            <br>
-            <input type="checkbox" id="lotthrough_c" name="lottthrough_c">
-            <label for="lotthrough_c">Lot C</label>
-            <br>
-            <input type="checkbox" id="lotthrough_d" name="lottthrough_d">
-            <label for="lotthrough_d">Lot D</label>
-            <br>
-            <input type="checkbox" id="lotthrough_d1" name="lottthrough_d1">
-            <label for="lotthrough_d1">Lot D-1</label>
-            <br>
-            <input type="checkbox" id="lotthrough_ellis" name="lottthrough_ellis">
-            <label for="lotthrough_ellis">Lot Ellis St.</label>
-            <br>
-            <input type="checkbox" id="lotthrough_r" name="lottthrough_r">
-            <label for="lotthrough_r">Lot R</label>
-            <br>
-            <input type="checkbox" id="lotthrough_y" name="lottthrough_y">
-            <label for="lotthrough_y">Lot Y</label>
-            <br>
-            <br>
-          </div>
-          Were you in an accident today?
-          <div>
-            <br>
-            <input type="radio" id="in_accident" name="accident_self" value="in_accident">
-            <label for="in_accident">Yes</label>
-            <input type="radio" id="not_in_accident" name="accident_self" value="not_in_accident">
-            <label for="not_in_accident">No</label>
-            <br>
-            <br>
-          </div>
+	<legend>Survey</Legend><br>
+	<!-- method="get" shows values of variable in URL when subit button is pressed -->
+	<!-- change "get" to "post" in order to delete them from URL -->
+	<form action="/~allowa14/parc/php.php"  method="post" target="_self">
+	  What time did you park today?
+	  <div>
+	    <br>
+	    <input type="time" name="time">
+	    <br>
+	    <br>
+	  </div>
+	  How long did it take you to park?
+	  <div>
+	    <br>
+	    <input type="number" name="duration" min="1"  max="120"> minutes (1-120)
+	    <br>
+	    <br>
+	  </div>
+	  Which lot did you park in today?
+	  <div>
+	    <br>
+	    <input type="radio" id="lot_o" name="parkinglot" value="lot_o">
+	    <label for="lot_o">Lot O</label>
+	    <br>
+	    <input type="radio" id="lot_b1" name="parkinglot" value="lot_b1">
+	    <label for="lot_b1">Lot B-1</label>
+	    <br>
+	    <input type="radio" id="lot_a" name="parkinglot" value="lot_a">
+	    <label for="lot_a">Lot A</label>
+	    <br>
+	    <input type="radio" id="lot_c" name="parkinglot" value="lot_c">
+	    <label for="lot_c">Lot C</label>
+	    <br>
+	    <input type="radio" id="lot_d" name="parkinglot" value="lot_d">
+	    <label for="lot_d">Lot D</label>
+	    <br>
+	    <input type="radio" id="lot_d1" name="parkinglot" value="lot_d1">
+	    <label for="lot_d1">Lot D-1</label>
+	    <br>
+	    <input type="radio" id="lot_ellis" name="parkinglot" value="lot_ellis">
+	    <label for="lot_ellis">Lot Ellis St.</label>
+	    <br>
+	    <input type="radio" id="lot_r" name="parkinglot" value="lot_r">
+	    <label for="lot_r">Lot R</label>
+	    <br>
+	    <input type="radio" id="lot_y" name="parkinglot" value="lot_y">
+	    <label for="lot_y">Lot Y</label>
+	    <br>
+	    <br>
+	  </div>
+	  Approximatley how filled was that lot?
+	  <div>
+	    <br>
+	    <input type="range" id="lot_capacity" name="lot_capacity" min="1" max="5">
+	    <br>
+	  </div>
+	  Which lots did you drive through today?
+	  <div>
+	    <br>
+	    <input type="checkbox" id="lotthrough_o" name="lotthrough_o">
+	    <label for="lotthrough_o">Lot 0</label>
+	    <br>
+	    <input type="checkbox" id="lotthrough_b1" name="lottthrough_b1">
+	    <label for="lotthrough_b1">Lot B-1</label>
+	    <br>
+	    <input type="checkbox" id="lotthrough_a" name="lottthrough_a">
+	    <label for="lotthrough_a">Lot A</label>
+	    <br>
+	    <input type="checkbox" id="lotthrough_c" name="lottthrough_c">
+	    <label for="lotthrough_c">Lot C</label>
+	    <br>
+	    <input type="checkbox" id="lotthrough_d" name="lottthrough_d">
+	    <label for="lotthrough_d">Lot D</label>
+	    <br>
+	    <input type="checkbox" id="lotthrough_d1" name="lottthrough_d1">
+	    <label for="lotthrough_d1">Lot D-1</label>
+	    <br>
+	    <input type="checkbox" id="lotthrough_ellis" name="lottthrough_ellis">
+	    <label for="lotthrough_ellis">Lot Ellis St.</label>
+	    <br>
+	    <input type="checkbox" id="lotthrough_r" name="lottthrough_r">
+	    <label for="lotthrough_r">Lot R</label>
+	    <br>
+	    <input type="checkbox" id="lotthrough_y" name="lottthrough_y">
+	    <label for="lotthrough_y">Lot Y</label>
+	    <br>
+	    <br>
+	  </div>
+	  Were you in an accident today?
+	  <div>
+	    <br>
+	    <input type="radio" id="in_accident" name="accident_self" value="in_accident">
+	    <label for="in_accident">Yes</label>
+	    <input type="radio" id="not_in_accident" name="accident_self" value="not_in_accident">
+	    <label for="not_in_accident">No</label>
+	    <br>
+	    <br>
+	  </div>
+	  
+	  <!--Which Lot?-->
+	  
+	  Did you witness an accident today?
+	  <div>
+	    <br>
+	    <input type="radio" id="witness" name="accident_witness" value="witness">
+	    <label for="witness">Yes</label>
+	    <input type="radio" id="not_witness" name="accident_witness" value="not_witness">
+	    <label for="not_witness">No</label>
+	    <br>
+	    <br>
+	  </div>
 
-          <!--Which Lot?-->
-
-          Did you witness an accident today?
-          <div>
-            <br>
-            <input type="radio" id="witness" name="accident_witness" value="witness">
-            <label for="witness">Yes</label>
-            <input type="radio" id="not_witness" name="accident_witness" value="not_witness">
-            <label for="not_witness">No</label>
-            <br>
-            <br>
-          </div>
-
-          <!--Which Lot?-->
-
-          Did you park illegitimately today?
-          <div>
-            <br>
-            <input type="radio" id="illegitimate" name="illegitimacy" value="illegitimate">
-            <label for="illegitimate">Yes</label>
-            <input type="radio" id="not_illegitimate" name="illegitimacy" value="not_illegitimate">
-            <label for="not_illegitimate">No</label>
-            <br>
-            <br>
-          </div>
-          How satisfied are you with your parking experience today?
-          <div>
-            <br>
-            <input type="range" id="experience" name="experience" min="1" max="5">
-            <br>
-            <br>
-          </div>
-          Do you plan on leaving and returning to campus today?
-          <div>
-            <br>
-            <input type="radio" id="is_returning" name="returning" value="is_returning">
-            <label for="is_returning">Yes</label>
-            <input type="radio" id="not_returning" name="returning" value="not_returning">
-            <label for="not_returning">No</label><br>
-            </div>
-          <input type="submit" value="submit">
-        </form>
+	  <!--Which Lot?-->
+	  
+	  Did you park illegitimately today?
+	  <div>
+	    <br>
+	    <input type="radio" id="illegitimate" name="illegitimacy" value="illegitimate">
+	    <label for="illegitimate">Yes</label>
+	    <input type="radio" id="not_illegitimate" name="illegitimacy" value="not_illegitimate">
+	    <label for="not_illegitimate">No</label>
+	    <br>
+	    <br>
+	  </div>
+	  How satisfied are you with your parking experience today?
+	  <div>
+	    <br>
+	    <input type="range" id="experience" name="experience" min="1" max="5">
+	    <br>
+	    <br>
+	  </div>
+	  Do you plan on leaving and returning to campus today?
+	  <div>
+	    <br>
+	    <input type="radio" id="is_returning" name="returning" value="is_returning">
+	    <label for="is_returning">Yes</label>
+	    <input type="radio" id="not_returning" name="returning" value="not_returning">
+	    <label for="not_returning">No</label><br>
+	    </div>
+	  <input type="submit" value="submit">
+	</form>
       </fieldset>
     </body>
   </div>
