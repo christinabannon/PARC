@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+    color: gray;
+    font-family: Roboto Mono;
+    margin-bottom: 5%;
+}
+
+#header {
+    background-color: white;
+    margin-left: 15%;
+}
+
+#content {
+    background-color: lightgray;
+    border: none;//2px solid gray;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 10px 10px 5px gray;
+}
+
+input[type=submit] {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.5;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+input[type=submit]:hover {
+    opacity: 1;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 50%;
+    height: 2px;
+    background: gray;
+    outline: gray;
+    opacity: 0.5;
+    -webkit-transition: .5s;
+    transition: opacity .5s;
+}
+
+
+.slider:hover {
+    opacity: 1; 
+}
+
