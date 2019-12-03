@@ -1,32 +1,90 @@
+Last login: Thu Nov 21 18:52:42 on ttys001
+christinas-air:~ christinabannon$ ssh bannon82@elvis.rowan.edu
+bannon82@elvis.rowan.edu's password: 
+Last login: Tue Dec  3 13:40:22 2019 from 10.38.74.233
+	   ______     _   
+	  / __/ /  __(_)__
+	 / _// / |/ / (_-<	Welcome to Elvis
+	/___/_/|___/_/___/
+                  
+::::::::::::::::::::::::::::::::::-NOTICES-::::::::::::::::::::::::::::::::::
+ 8/20 - New security protocols now deny outbound connections from elvis
+
+::::::::::::::::::::::::::::::::-MAINTENANCE-::::::::::::::::::::::::::::::::
+  *** COMPLETE: Scheduled security updates for Tue 8/20 starting at 9am ***
+  *** COMPLETE: Scheduled system upgrade for Wed 8/14 starting at 8pm ***
+
+[bannon82@elvis ~]$ cd public_html/
+[bannon82@elvis public_html]$ la
+-bash: la: command not found
+[bannon82@elvis public_html]$ ls
+bootstrapTests  js    resume.html  test.html
+index.html      parc  roboto.html  w3.html
+[bannon82@elvis public_html]$ cd parc/
+[bannon82@elvis parc]$ ls
+caroInde.html  data.html   php.php  survey2.html
+CSS            index.html  pics     survey.html
+[bannon82@elvis parc]$ cd CSS/
+[bannon82@elvis CSS]$ ls
+style.css
+[bannon82@elvis CSS]$ vi style.css 
 
 
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
- 	<link rel=stylesheet href="CSS/style.css"/>
-	<title> PARC </title>
+
+
+
+
+
+
+
+
+
+[bannon82@elvis CSS]$ ls
+style.css
+[bannon82@elvis CSS]$ vi style.css 
+[bannon82@elvis CSS]$ cd ..
+[bannon82@elvis parc]$ vi index.html 
+[bannon82@elvis parc]$ vi index.html 
+
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
-	<h1>WELCOME TO PARC</h1>
-	<br>
+        <div class="container">
+                <br>
+                <div class="row"><!--
+                        <h1>WELCOME TO PARC</h1>
+                        <br>
 
-	<p> It is the purpose of <b> Parking At Rowan Campus </b>
-	   to allow you to fill out a survey regarding your parking experience, 
-	   as well as to be able to view the cumulative results of other 
-	   students' survey submissions </p>
+                        <p> It is the purpose of <b> Parking At Rowan Campus </b>
+                        to allow you to fill out a survey regarding your parking experience, 
+                        as well as to be able to view the cumulative results of other 
+                        students' survey submissions </p>-->
+                        <div class="imgbox">
+                                <img class="center-fit" src="pics/PARC.png">
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col">
+                                <div class="imgbox">
+                                        <a href="http://elvis.rowan.edu/~bannon82/parc/survey.html">
+                                                <img class="center-fit" src="pics/SURVEY.png">
+                                        </a>
+                                </div>
+                        </div>
+                        <div class="col">
+                                <div class="imgbox">
+                                        <a href="http://elvis.rowan.edu/~bannon82/parc/data.html">
+                                                <img class="center-fit"  src="pics/DATA.png">
+                                        </a>
+                                </div>
+                        </div>
+                </div>
+        </div>
 
-	<h2>You answer a survey</h2>
-	<br>
-	<form action="/~bannon82/parc/survey.html" method="post">
-		<input type="submit" value="SURVEY">
-	</form>
-
-	<h2>You see our data</h2>
-	<br>
-	<form action="/~bannon82/parc/data.html" method="post">
-                <input type="submit" value="DATA">
-        </form>
-	<br>
-</body>
-</html>
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+"index.html" 77L, 2235C                                                                                 61,10-38      69%
